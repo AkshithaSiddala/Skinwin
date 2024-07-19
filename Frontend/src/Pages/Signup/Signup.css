@@ -1,0 +1,87 @@
+/* 
+
+
+  .sign-In {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .doctor-sign-in, .client-sign-in {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .view-doctors-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .view-doctors-list li {
+    list-style-type: none;
+    margin: 5px 0;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .view-doctors-list li:hover {
+    text-decoration: underline;
+  }
+  
+   */
+
+   /* Signup.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sign-In {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: url('./login background.jpg')no-repeat;; 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: auto;
+  scroll-margin-bottom: none;
+}
+
+.sign-In div {
+  margin: 20px 0;
+}
+
+.doctor-sign-in, .client-sign-in {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-sign-in {
+  background-color: #007bff; /* Blue */
+}
+
+.client-sign-in {
+  background-color: #28a745; /* Green */
+}
+
+.doctor-sign-in:hover {
+  background-color: #0056b3;
+}
+
+.client-sign-in:hover {
+  background-color: #218838;
+}

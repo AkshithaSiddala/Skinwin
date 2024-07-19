@@ -1,0 +1,48 @@
+.appointment-format-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.individual-appointmentlist {
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: black;
+}
+.appointment-list {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 100px;
+  scroll-margin-bottom: none;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.individual-appointmentlist button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 90%;
+  background-color: #673fa6;
+}
+/* .Add-button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 20%;
+  background-color: #a6aaf8;
+  align-items: center;
+} */
+.Add-button button {
+  margin: 10px;
+  align-items: center;
+  max-width: 15%;
+  background-color: #7243f5;
+}

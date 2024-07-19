@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28178abe; /* Background color for the navbar */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for the navbar */
+
+}
+
+.navbar-icon {
+    font-size: 1.5rem; /* Font size for the navbar icon */
+}
+
+.navbar-content ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar-content ul li {
+    display: inline-block;
+    margin-right: 20px; /* Margin between menu items */
+    cursor: pointer;
+    color: white;
+}
+
+.signup {
+    padding: 8px 20px; /* Padding for the signup button */
+    background-color: #a6aaf8; /* Background color for the signup button */
+    color: #3719e3; /* Text color for the signup button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.navbar-icon {
+    font-size: 1.5rem; /* Font size for the icon */
+    color: #3719e3; /* Text color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    padding: 5px 10px; /* Add padding to the icon */
+    border-radius: 10%; /* Make the icon circular */
+    background-color: #a6aaf8; /* Background color for the icon */
+}
+@media (max-width: 768px) {
+    .navbar-content ul li {
+        margin-right: 10px; /* Reduce margin for smaller screens */
+    }
+
+    .signup {
+        padding: 6px 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+.view-doctors-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .view-doctors-list a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .view-doctors-list li {
+    cursor: pointer;
+    color: white;
+  }
+  

@@ -1,0 +1,49 @@
+
+.pigmentation {
+    padding: 20px;
+}
+
+.pigmentation-candt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pigmentation-concerns,
+.pigmentation-treatment {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.pigmentation-concerns h2,
+.pigmentation-treatment h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pigmentation-concerns p,
+.pigmentation-treatment p {
+    line-height: 1.6;
+}
+
+.pigmentation-concerns img,
+.pigmentation-treatment img {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: flex-end;
+}
+
+.pigmentation-concerns li,
+.pigmentation-treatment li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.pigmentation-treatment p:last-child {
+    margin-bottom: 0;
+} 
+

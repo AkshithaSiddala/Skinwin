@@ -1,0 +1,62 @@
+.acne-candt {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .acne-concerns,
+  .acne-treatments {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .acne-concerns h2,
+  .acne-treatments h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .acne-concerns p,
+  .acne-concerns .mild-acne,
+  .acne-concerns .moderate-severe,
+  .acne-concerns .Acne-therapy {
+    margin-bottom: 20px;
+  }
+  
+  .acne-concerns img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .acne-concerns li {
+    margin-bottom: 10px;
+  }
+  
+  .acne-treatments img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .acne-treatments .mild-acne,
+  .acne-treatments .moderate-severe,
+  .acne-treatments .Acne-therapy {
+    margin-top: 20px;
+  }
+  
+  .acne-treatments .mild-acne h3,
+  .acne-treatments .moderate-severe h3,
+  .acne-treatments .Acne-therapy h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .acne-treatments .mild-acne li,
+  .acne-treatments .moderate-severe li,
+  .acne-treatments .Acne-therapy li {
+    margin-bottom: 10px;
+  }
+   
+   

@@ -1,0 +1,65 @@
+.add-patient {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-patient form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-img {
+    margin-bottom: 20px;
+  }
+  
+  .upload-img p {
+    margin-bottom: 10px;
+  }
+  
+  .upload-img img {
+    max-width: 100px;
+    max-height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .patient-name,
+  .patient-age,
+  .patient-description-medication {
+    margin-bottom: 20px;
+  }
+  
+  .patient-name p,
+  .patient-age p,
+  .patient-description p,
+  .patient-medication p {
+    margin-bottom: 10px;
+  }
+  
+  .patient-description-medication {
+    display: flex;
+  }
+  
+  .patient-description,
+  .patient-medication {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .add-btn button{
+    padding: 10px 20px;
+    background-color: #9366ec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #7766ea;
+  }
+ 
