@@ -7,4 +7,4 @@ backend development, and React.js for a modern user
 interface. Dermatologists can manage patient histories and
 prescriptions, while clients can schedule appointments and
 access treatment recommendations. SkinWin streamlines
-dermatological care, enhancing communication and decisionmaking for both professionals and clien
+dermatological care, enhancing communication and decision making for both professionals and clien
